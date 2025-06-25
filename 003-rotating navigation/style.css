@@ -92,12 +92,13 @@ nav ul li {
   color: #fff;
   margin: 40px 0;
   transform: translateX(-100%);
-  transition: transform 0.4s ease-in;
+  transition: transform 0.8s ease-in;
 }
 
 nav ul li i {
   font-size: 20px;
   margin-right: 10px;
+  color: #ff7979;
 }
 
 nav ul li + li {
@@ -108,6 +109,11 @@ nav ul li + li {
 nav ul li + li + li {
   margin-left: 30px;
   transform: translateX(-200%);
+}
+
+nav ul li + li + li + li {
+  margin-left: 45px;
+  transform: translateX(-250%);
 }
 
 .content {
