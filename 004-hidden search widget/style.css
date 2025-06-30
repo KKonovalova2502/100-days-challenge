@@ -23,6 +23,8 @@ body {
 .search .input {
   background-color: #fff;
   border: 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   font-size: 18px;
   padding: 15px;
   height: 50px;
@@ -33,6 +35,8 @@ body {
 .btn {
   background-color: #fff;
   border: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
   cursor: pointer;
   font-size: 24px;
   position: absolute;
@@ -54,4 +58,8 @@ body {
 
 .search.active .btn {
   transform: translateX(198px);
+}
+
+.search.input:focus {
+  background-color: #f0f0f0;
 }
