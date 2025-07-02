@@ -20,7 +20,7 @@ h1 {
 }
 
 .box {
-  background-color: #867893;
+  background-color: #34113f;
   color: #fff;
   display: flex;
   align-items: center;
@@ -30,16 +30,18 @@ h1 {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
-  transform: translateX(400%);
-  transition: transform 0.4s ease;
+  transform: translateY(50%);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
 }
 
-.box:nth-of-type(even) {
+/* .box:nth-of-type(even) {
   transform: translateX(-400%);
-}
+} */
 
 .box.show {
-  transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .box h2 {

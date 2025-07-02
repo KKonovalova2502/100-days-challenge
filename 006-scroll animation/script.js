@@ -1,7 +1,7 @@
 const boxes = document.querySelectorAll(".box");
 
 const checkBoxes = () => {
-  const triggerBottom = (window.innerHeight / 5) * 4;
+  const triggerBottom = (window.innerHeight / 10) * 9;
   boxes.forEach((box) => {
     const boxTop = box.getBoundingClientRect().top;
     if (boxTop < triggerBottom) box.classList.add("show");
